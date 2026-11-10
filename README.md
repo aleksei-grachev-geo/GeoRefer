@@ -1,4 +1,4 @@
-# GeoRefer — Transformación de coordenadas y correcciones angulares
+# GeoRefer - Transformación de coordenadas y correcciones angulares
 
 Calculadora para preparar datos espaciales y correcciones angulares utilizados en trabajos con pozos. La versión actual utiliza un perfil SK-42 e integra la transformación de coordenadas, el cálculo de la convergencia de meridianos y la declinación magnética para una fecha seleccionada.
 
@@ -25,7 +25,7 @@ La versión actual utiliza un perfil de cálculo SK-42. La declinación magnéti
 - Conversión de coordenadas rectangulares SK-42 a coordenadas geográficas.
 - Cálculo de la convergencia de meridianos.
 - Cálculo de la declinación magnética para la fecha seleccionada dentro del periodo de validez de WMM2025.
-- Obtención de la corrección angular resultante según la convención implementada: **D − γ**, donde D es la declinación magnética y γ la convergencia de meridianos.
+- Obtención de la corrección angular resultante según la convención implementada: **D - γ**, donde D es la declinación magnética y γ la convergencia de meridianos.
 - Avisos sobre coordenadas fuera del área prevista y posibles aplicaciones duplicadas de los desplazamientos.
 - Vista detallada de los datos de entrada, las coordenadas calculadas y los parámetros angulares.
 - Copia de resultados en un formato tabular compatible con Excel.
